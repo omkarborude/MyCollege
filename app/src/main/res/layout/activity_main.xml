@@ -22,14 +22,12 @@
         app:contentPadding="20dp">
 
         <ImageView
-            android:id="@+id/raje"
             android:layout_width="90dp"
             android:layout_height="102dp"
             android:contentDescription="@string/todo"
             app:srcCompat="@drawable/omk" />
 
         <TextView
-            android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="100dp"
@@ -61,7 +59,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginStart="50dp"
         android:layout_marginTop="1dp"
-        android:text="@string/fucalty"
+        android:text="@string/faculty"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -78,7 +76,6 @@
         android:contentDescription="@string/syllabus" />
 
     <TextView
-        android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/book"
@@ -102,14 +99,13 @@
         android:contentDescription="@string/timetable" />
 
     <TextView
-        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/timetable"
         android:layout_alignParentStart="true"
         android:layout_marginStart="35dp"
         android:layout_marginTop="1dp"
-        android:text="Time table"
+        android:text="@string/time_table"
         android:textSize="18sp"
         android:textStyle="bold" />
 
